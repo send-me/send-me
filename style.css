@@ -1,0 +1,107 @@
+
+
+@font-face {
+    font-family: ramen;
+    src: url(TimesNewRamen-Regular.ttf);
+}
+a {
+	cursor: pointer;
+}
+
+h1
+{
+	font-family: Times;
+	font-size: 10vw;
+	color: blue;
+	-webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: red;
+   line-height: 50px;
+   margin-left: -.5vw;
+   margin-top: 2.5px;
+   cursor: default;
+   transition-duration: 5s;
+}
+h1:hover
+{
+
+color: transparent;
+	-webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: blue;
+	transition-duration: 5s;
+
+}
+h2 {
+	font-family: 12px;
+	color: red;
+	-webkit-text-stroke-width: 0px;
+   -webkit-text-stroke-color: blue;
+	cursor: default;
+	margin-top: 0px;
+	text-shadow: 2px 2px white;
+
+}
+h2:hover {
+		color: transparent;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: blue;
+    text-shadow: 2px 2px #ff0000;
+}
+p
+{
+	font-family: 10px;
+	color: black;
+	cursor: default;
+	margin-top: 0px;
+	columns: 2;
+}
+.box
+{
+	width: 30vw;
+	height: 30vw;
+	color: transparent;
+	position: fixed;
+	 border-style: dotted;
+    border-color: blue;
+    border-width: medium;
+    overflow: scroll;
+    margin-top: 200px;
+    box-shadow: 10px 10px #ff0000;
+    transition-duration: 1s;
+}
+.box:hover
+{
+	    box-shadow: 5px 5px #7CFF00;
+
+}
+
+.green-box {
+	width: 60vw;
+	height: 97%;
+	background-color: #7CFF00;
+	position: fixed;
+	margin-top: -30px;
+	right: 0px;
+	cursor: default;
+	margin-top: 0px;
+	mix-blend-mode: lighten;
+	overflow: scroll;
+	
+
+}
+
+.texture {
+	width: 300vw;
+	height: 600vw;
+	mix-blend-mode: lighten;
+	margin-top: 0px;
+}
+.textureWrap
+{
+	width: 100vw;
+	height: 100vw;
+	position: fixed;
+	overflow: scroll;
+	margin-top: -50px;
+	left: 0px;
+	z-index: -100;
+}
